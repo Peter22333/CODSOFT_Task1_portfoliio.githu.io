@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 255, 255);
+}
+
+#sub{
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s linear all;
+}
+
+#sub:hover{
+    background: #0184b8;
+    font: 23px;
+    border-radius: 20px 0px 20px 0px;
+}
+.tag{
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 20px;
+    width: 45%;
+}
+#con{
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s linear all;
+}
+
+#con:hover{
+    background: #320203;
+    font: 23px;
+    border-radius: 10px
+}
