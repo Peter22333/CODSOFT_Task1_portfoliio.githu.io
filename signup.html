@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+<div class="main-container">
+    <div class="welcome-container">
+        <h2>WELCOME BACK!!</h2>
+        <p>Manage your expenses easily and efficiently. Log in to start tracking your spending, saving money, and reaching your finacial goals</p>
+    </div>
+    <div class="form-container">
+        <h2>Log in</h2>
+        <p id="auth-msg"></p>
+        <form id="form" action="/auth" method="post">
+            <div class="input-group">
+                <label style="width: 200px;" for="username">Username</label>
+                <div class="input-with-icon">
+                <i class="fa fa-user"></i>
+                <input type="text" id="username" name="username" required placeholder="username">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <div class="input-with-icon"></div>
+                <i class="fa fa-user" ></i>
+                <input type="text" id="password" name="password" required placeholder="password">
+            </div>
+            <button type="button">Login</button>
+            <p>Don't have an acccount?? <a href="#">Create account</a></p>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>

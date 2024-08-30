@@ -1,0 +1,97 @@
+body{
+    font-family: "Montserrat";
+    background-color: #fdfdfd;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.main-container {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.form-container p a { 
+    text-decoration: none;
+    font-weight: bold;
+}
+.form-container { 
+    flex: 1;
+    padding: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.welcome-container {
+    flex: 1;
+    background-color: #033b7f;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.welcome-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem; 
+    color: #eae7e7;
+} 
+
+.welcome-container p {
+    font-size: 16px; color: #afdfdf;
+    text-align: center;
+} 
+h2 {
+    color: #000000;
+    text-align: center;
+}
+form  {
+    display: flex;
+    flex-direction: column;
+}
+.input-group {
+    margin-bottom: 20px;
+    margin: 10px;
+}
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+.input-with-icon { 
+    margin-top: 12px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.input-with-icon i {
+    position: absolute;
+    left: 10px;
+    color: #033b7f;
+    font-size: 18px;    
+} 
+input[type="text"]:focus,
+input [type="password" ]:focus {
+    border-color: #033b7f;
+    outline:none;
+    box-shadow:0 0 5px rgba(7, 74, 210, 0.5);
+}
+button {
+    background-color: #033b7f;
+    border: none;
+    border-radius: 10px;
+    color: #fff; 
+    padding: 10px;
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
